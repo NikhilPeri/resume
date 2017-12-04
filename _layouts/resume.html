@@ -13,7 +13,7 @@
 
         <!-- You can turn off the avatar in _config.yml by setting to false -->
         {% if site.resume_avatar %}
-        <img src="images/avatar.jpg" alt="my photo" class="avatar no-print" itemprop="image">
+        <img src="images/avatar.jpg" alt="Nikhil Peri" class="avatar" itemprop="image">
         {% endif %}
         {{ page.pdf_url }}
         <!-- Your name is defined in the _config.yml file -->
@@ -35,15 +35,10 @@
 
         <div class="executive-summary no-print" itemprop="description">
           <p> {{ site.resume_header_intro }} </p>
+          <p>  This is my resume, which is the tip of the iceburg.  If you want to hear more about the work I have done </p>
         </div>
 
-        {% if site.resume_looking_for_work == 'yes' %}
-        <a href="mailto:{{ site.resume_contact_email }}" class="contact-button no-print" itemprop="email">Contact me</a>
-        {% elsif site.resume_looking_for_work == 'no' %}
-        <a class="contact-button not-looking no-print">I'm not looking for work right now.</a>
-        {% else %}
-        {% endif %}
-
+        <a class="contact-button no-print">Have a Business Card</a>
       </header>
 
       {% if site.resume_section_education %}
@@ -242,6 +237,29 @@
 
     </div>
 
+    <div id="modal-container">
+      <div class="modal-background">
+        <div class="modal">
+          <h1 class="resume-item-title">Nikhil Peri</h1>
+          <p>email</p>
+          <svg class="modal-svg" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" preserveAspectRatio="none">
+						<rect x="0" y="0" fill="none" width="226" height="162" rx="3" ry="3"></rect>
+					</svg>
+        </div>
+      </div>
+    </div>
+    <script>
+      $('.contact-button').click(function(){
+        var buttonId = $(this).attr('id');
+        $('#modal-container').removeAttr('class').addClass('active');
+        $('body').addClass('modal-active');
+      })
+
+      $('#modal-container').click(function(){
+        $('#modal-container').addClass('out');
+        $('body').removeClass('modal-active');
+      });
+    </script>
   </body>
 
 </html>
