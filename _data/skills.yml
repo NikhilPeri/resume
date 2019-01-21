@@ -4,9 +4,9 @@
       - Deployed and managed enterprise scale Kubernetes applications running on GCP
       - Designed systems utilizing background workers to improve performance of asynchronous operations
       - Implemented event driven pipelines using Apache Kafka and Spark
-      - Optimized cardinality, read and write accesiblity of SQL Databases
+      - Optimized cardinality, and read/write accesiblity of SQL Databases
       - Implemented secure webhooks and APIs to interact with other web services
-    
+
     - title: Language Literacy
     - list:
       - Advanced concepts of C++, specifically use of smart pointers and implementing buffered communication systems
