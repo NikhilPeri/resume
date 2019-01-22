@@ -1,6 +1,7 @@
 - title: Software Engineering
   skills:
     - title: Backend Development
+    - list:
       - Deployed and managed enterprise scale Kubernetes applications running on GCP
       - Designed systems utilizing background workers to improve performance of asynchronous operations
       - Implemented event driven pipelines using Apache Kafka and Spark
@@ -17,6 +18,7 @@
       - Architected and documented systems with UML standard notation
 
     - title: Montioring and Debugging
+    - list:
       - Tested software at all levels from unit to integration
       - Resolved bugs through investigating logs in splunk and tracing back error messages
       - Built montioring systems using Datadog
