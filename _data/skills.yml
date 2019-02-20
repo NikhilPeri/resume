@@ -19,7 +19,7 @@
     - title: Web Technology
     - list:
       - Worked with MySQL and Postgres Databases at various scales
-      - Configured applications running on GCP, AWS, and Heroku with Kubernetes and Docker containers
+      - Configured applications running on GCP, and Heroku with Kubernetes and Docker containers
       - Utilized other data services, including Kafka Streaming, Redis, Sidekiq, and Sendgrid
       - Resolved bugs through investigating logs in splunk and tracing back error messages.
 
