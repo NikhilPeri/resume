@@ -1,6 +1,6 @@
 - company: Shopify
-  position: Data Engineer
-  duration: May, 2018 &mdash; Sept, 2018
+  position: Data Engineer Intern
+  duration: May, 2018 &mdash; Aug, 2018
   summary: >
     Worked on the Discovery Algorithms Team responsible for delivering recommendations to nearly 500,000 business owners on Shopify.
     Specifically focused on matching algorithms to help business owners find contract professionals.
@@ -10,8 +10,8 @@
     - Built modeled datasets from raw data utilizing Apache Spark and the Kimball methodology
     - Debugged and resolved data extraction issues used in core batch processing pipelines
 
-- position: Backend Developer
-  duration: Jan, 2017 &mdash; April, 2018
+- position: Backend Developer Intern
+  duration: Jan, 2017 &mdash; April, 2017 & Sept, 2017 &mdash; May, 2018
   summary: >
     Joined the new Services Marketplace project building a platform to broker agreements between
     Entrepreneurs and contract professionals. Built data pipelines focused on delivering recommendations to customers and
@@ -24,8 +24,8 @@
     - Made it to the final round of internal company Hack Days
 
 - company: Microsemi
-  position: Software Engineer
-  duration:  May, 2016 &mdash; Sept, 2016
+  position: Software Engineer Intern
+  duration:  May, 2016 &mdash; Aug, 2016
   summary: >
     Worked under the Timing and Synchronization R&D Team developing Microsoft
     .NET applications to help customers and internal engineers configure embedded
