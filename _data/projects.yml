@@ -26,3 +26,10 @@
     to run scheduled data mining tasks, as well as pipelines for data modeling and transformations.  Complete with data backups
     log notifications. Currently hosts the <a href="https://github.com/NikhilPeri/proline">Proline Sports Betting</a> project among other
     smaller data projects.
+
+- project: Comma.ai Speed Challenge
+  #role: Hacker
+  url: https://github.com/NikhilPeri/speedchallenge
+  #duration: May 2018 &mdash; Present
+  description:
+    Developed a solution combining semantic segmentation with optical flow to produce speed estimations from video frames.

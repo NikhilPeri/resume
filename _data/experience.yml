@@ -1,3 +1,14 @@
+- company: Manulife Financial
+  position: Associate Data Engineer
+  duration: March, 2019 &mdash; Present
+  summary: >
+    Member of the Analytics Enablement Platform working closely with analysts to construct pipelines to automate ingestion and modeling of
+    data sources.
+  list:
+    - Designed Hive schemas with optimized partitions based on common queries
+    - Leveraged Apache Sqoop to extract data from SQL source systems to HDFS
+    - Constructed modeled datasets using Apache Spark
+
 - company: Shopify
   position: Data Engineer Intern
   duration: May, 2018 &mdash; Aug, 2018
@@ -6,6 +17,8 @@
     Specifically focused on matching algorithms to help business owners find contract professionals.
   list:
     - Deployed an ensemble linear model to produce recommendations based on multiple positive and negative user behaviour signals
+    - Evaluated Recommeder System preformance through prediction shift, catalog coverage and other metrics.
+    - Conducted feature engineering study to eliminate sparse features from linear model and improve training time
     - Developed a realtime microservice for querying trained Tensorflow Models to deliver recommendations instantly
     - Built modeled datasets from raw data utilizing Apache Spark and the Kimball methodology
     - Debugged and resolved data extraction issues used in core batch processing pipelines

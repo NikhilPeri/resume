@@ -11,7 +11,7 @@
 
     - title: Data Engineering
     - list:
-      - Shipped realtime recommendation system using data services including Apache Kafka, Apache Arrow
+      - Shipped realtime recommendation system using data services including Apache Kafka, Apache Avro
       - Built a standalone microservice for querying Tensorflow models with online user features and processed data warehouse features
       - Debugged and resolved min of the max problems in core data extraction stages
 
