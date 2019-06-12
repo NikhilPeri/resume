@@ -8,6 +8,26 @@
     to a multidisciplinary team of 20+ students.  Competed in 2018 and one of 24 teams selected from 126 competitors to
     deliver a podium presentation on the technology behind the air braking system.
 
+- project: Comma.ai Speed Challenge
+  #role: Hacker
+  url: https://github.com/NikhilPeri/speedchallenge
+  #duration: May 2018 &mdash; Present
+  description:
+    Developed a solution combining semantic segmentation with optical flow to produce speed estimations from video frames.
+    Leveraged the  <a href="https://bdd-data.berkeley.edu">Berkeley Deep Drive</a> dataset to train a u-net for classifying
+    static and dynamic objects in a video frame.  Then used this segmentation model to mask the dense optical flow between two frames.
+    This allowed the model to differentiate relative motion of dynamic objects (ex. cars, people) from static objects (ex. trees, bridges).
+
+- project: Surface Predictions Challenge
+  #role: Hacker
+  url: https://github.com/NikhilPeri/surface-prediction
+  #duration: May 2018 &mdash; Present
+  description:
+    Ranked in the top 3% of <a href="https://www.kaggle.com/c/career-con-2019/leaderboard">kaggle competition</a>
+    to predict the surface beneath a moving robot given inertial data.  Trained a model on FFT spectrograms and
+    Wavelet Transformation spectrograms.  Also utilized reslicing of time series signals as a data augmentation
+    method to improve accuracy.
+
 - project: Ontario Engineering Competition
   role: Programming Competition Director
   # duration: 2007 &mdash; Present
@@ -26,10 +46,3 @@
     to run scheduled data mining tasks, as well as pipelines for data modeling and transformations.  Complete with data backups
     log notifications. Currently hosts the <a href="https://github.com/NikhilPeri/proline">Proline Sports Betting</a> project among other
     smaller data projects.
-
-- project: Comma.ai Speed Challenge
-  #role: Hacker
-  url: https://github.com/NikhilPeri/speedchallenge
-  #duration: May 2018 &mdash; Present
-  description:
-    Developed a solution combining semantic segmentation with optical flow to produce speed estimations from video frames.

@@ -2,12 +2,11 @@
   position: Associate Data Engineer
   duration: March, 2019 &mdash; Present
   summary: >
-    Member of the Analytics Enablement Platform working closely with analysts to construct pipelines to automate ingestion and modeling of
-    data sources.
+    Member of the Analytics Enablement Platform working closely with analysts to automation data ingestion and modeling pipelines.
   list:
-    - Designed Hive schemas with optimized partitions based on common queries
-    - Leveraged Apache Sqoop to extract data from SQL source systems to HDFS
-    - Constructed modeled datasets using Apache Spark
+    - Constructed a framework for building and unit testing Apache Spark data transformations.
+    - Leveraged Apache Sqoop to ingest data from various production systems into HDFS
+    - Built event driven stream processes using Apache NiFi
 
 - company: Shopify
   position: Data Engineer Intern
