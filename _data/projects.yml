@@ -1,16 +1,31 @@
 - project: uOttawa Rocketry Team
   role: Co-Founder & Design Lead
-  duration: Sept. 2015 &mdash; Present
+  duration: Sept. 2015 &mdash; Sept. 2019
   url: http://uorocketry.github.io
   description:
     uOttawa's first aerospace and rocketry team. Built a rocket which utilized a dynamic braking system
     to precisely carry and 8.8lb payload to 10,000 feet. Started as a small group of students experimenting with rockets
-    to a multidisciplinary team of 20+ students.  Competed in 2018 and one of 24 teams selected from 126 competitors to
-    deliver a podium presentation on the technology behind the air braking system.
+    to a multidisciplinary team of 30+ students.  Competed in 2019 and placed 4th out of 126 competitors to and one of 24 teams
+    selected to deliver a podium presentation on the technology behind the <a href="https://github.com/uorocketry/barista">air braking system</a>.
+
+- project: Comma.ai Speed Prediction
+  role: Developer
+  duration: Feb. 2019
+  url: https://github.com/NikhilPeri/speedchallenge
+  description:
+    Predict the speed of a vehicle given 17 minutes of continous video data. I developed a block based splitting algorithm to improve reliability
+    of cross-validation on such a small video dataset.  I also improved the generalization performance of the optical flow model by including a semantic segmentation capable of
+    differentiating fixed and dynamic objects
+
+- project: Kaggle Competitor
+  role: Developer
+  url: https://www.kaggle.com/nikperi
+  description:
+    
 
 - project: Ontario Engineering Competition
   role: Programming Competition Director
-  # duration: 2007 &mdash; Present
+  duration: Jan. 2018
   url: http://oec-2018.herokuapp.com/
   description:
     Organized the first "live" programming competition. Built a simulated stock trading environment where prices

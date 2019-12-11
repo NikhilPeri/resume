@@ -42,12 +42,12 @@ resume_section_associations:    false
 # Resume social links
 # uncomment the options you wish to display, and add your own URL
 resume_social_links:
-  resume_github_url:            'https://github.com/nikhilperi'
+  resume_github_url:            'https://github.com/NikhilPeri?tab=overview&from=2018-12-01&to=2018-12-31'
   # resume_facebook_url:          'insert Facebook URL here'
   resume_linkedin_url:          'https://www.linkedin.com/in/nikhil-peri-511639109'
   # resume_instagram_url:         'insert your Instagram URL here'
   resume_website_url:           'http://nikhilperi.github.io'
-resume_print_social_links:      false
+resume_print_social_links:      true
 
 # Design settings
 resume_theme:                   default

@@ -2,13 +2,18 @@
   skills:
     - title: Language Literacy
     - list:
+      - Python for numerically focused projects with extensive use of Pandas, Numpy, PyTorch, Tensorflow and  frameworks
       - Advanced concepts of C++, specifically use of smart pointers and implementing buffered communication systems
-      - Python for numerically focused projects with extensive use of Scikit, Pandas, Tensorflow and Numpy frameworks
       - Ruby in the context of Rails and web application development
       - Javascript for front end applications using the React framework
       - Matlab for optimization and simulation problems
-      - Java for Android app development, and general OOP
       - C# for Microsoft .NET development
+
+    - title: Linux
+    - list:
+      - Used as primary operating system for 3 years
+      - Solid understanding of Linux file system, and device tree
+      - Leveraged system features such as cron, systemd, and bash scripting
 
     - title: Data Science
     - list:
@@ -25,15 +30,9 @@
 
     - title: Embedded and IoT
     - list:
-      - Build systems using Web Sockets, FTDI, SPI, I2C, UART, and BT interfaces
+      - Build systems using Web Sockets, FTDI, SPI, I2C, and UART interfaces
       - Controlled devices using register write commands, and higher level REST APIs
-      - Understand principles of IP routing and various network topologies
-
-    - title: Linux
-    - list:
-      - Used as primary operating system for 3 years
-      - Solid understanding of Linux file system, and device tree
-      - Leveraged system features such as cron, systemd, an bash scripting
+      - Closed loop control of stepper motors and other actuators
 
 - title: Electrical Engineering
   skills:

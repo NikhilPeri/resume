@@ -1,17 +1,29 @@
+- company: Manulife Financial
+  position: Associate Data Engineer
+  duration: March 2019 &mdash; Present
+  summary: >
+    Member of Analytics Enablement Processing Team responsible for modernizing existing
+    workflows using the Hadoop ecosystem
+  list:
+    - Developed the companies first framework for Apache Spark data transformations
+    - Constructed programmatically generated pySpark transformations to perform anomaly detection on extracted data
+    - Implemented Directed Acyclic Graph of data transformations for dependency resolution and reduce redundant computation
+    - The framework reduced delivery time for KPI metrics and customer propensity scores from quarterly to daily
+
 - company: Shopify
   position: Data Engineer Intern
-  duration: May, 2018 &mdash; Aug, 2018
+  duration: May 2018 &mdash; Aug. 2018
   summary: >
     Worked on the Discovery Algorithms Team responsible for delivering recommendations to nearly 500,000 business owners on Shopify.
     Specifically focused on matching algorithms to help business owners find contract professionals.
   list:
-    - Deployed an ensemble linear model to produce recommendations based on multiple positive and negative user behaviour signals
-    - Developed a realtime microservice for querying trained Tensorflow Models to deliver recommendations instantly
+    - Deployed an ensemble model to serve recommendations based on multiple positive and negative behavioural signals
+    - Developed a realtime microservice for querying trained TensorFlow Models to deliver recommendations instantly
     - Built modeled datasets from raw data utilizing Apache Spark and the Kimball methodology
     - Debugged and resolved data extraction issues used in core batch processing pipelines
 
 - position: Backend Developer Intern
-  duration: Jan, 2017 &mdash; April, 2017 & Sept 2017 &mdash; April 2018
+  duration: Jan. 2017 &mdash; April, 2017 & Sept. 2017 &mdash; April 2018
   summary: >
     Joined the new Services Marketplace project building a platform to broker agreements between
     Entrepreneurs and contract professionals. Built data pipelines focused on delivering recommendations to customers and
@@ -25,12 +37,12 @@
 
 - company: Microsemi
   position: Software Engineer Intern
-  duration:  May, 2016 &mdash; Aug, 2016
+  duration:  May 2016 &mdash; Aug. 2016
   summary: >
     Worked under the Timing and Synchronization R&D Team developing Microsoft
     .NET applications to help customers and internal engineers configure embedded
     timing chips over FTDI.
   list:
-    - Designed algorithms used for configuring device registers and selecting frequency parameters, in fixed time complexity
+    - Designed mixed integer algorithms for selecting frequency parameters in fixed time complexity
     - Programmed .NET applications in C# and .dll libraries in C++ both from scratch and on top of existing code
     - Conducted validation of power consumption and signal quality on timing devices
