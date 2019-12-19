@@ -13,15 +13,17 @@
   duration: Feb. 2019
   url: https://github.com/NikhilPeri/speedchallenge
   description:
-    Predict the speed of a vehicle given 17 minutes of continous video data. I developed a block based splitting algorithm to improve reliability
+    Predict the speed of a vehicle given 17 minutes of continuous video data. I developed a block based splitting algorithm to improve reliability
     of cross-validation on such a small video dataset.  I also improved the generalization performance of the optical flow model by including a semantic segmentation capable of
     differentiating fixed and dynamic objects
 
-- project: Kaggle Competitor
-  role: Developer
-  url: https://www.kaggle.com/nikperi
+- project: Kaggle
+  role: Competitor
+  url: https://www.kaggle.com/nikperi/competitions
   description:
-    
+    Placed Top 3% on <a href="https://www.kaggle.com/c/career-con-2019/leaderboard">Surface Prediction</a> utilizing a model based on wavelet and Fourier transforms of IMU signals.
+    Participated in <a href="hhttps://www.kaggle.com/c/rsna-intracranial-hemorrhage-detection">Intracranial Hemorrhage Detection</a> and
+    <a href="https://www.kaggle.com/c/severstal-steel-defect-detection">Steel Defect Detection</a> competitions, experimenting with image sequence processing and semantic segmentation.
 
 - project: Ontario Engineering Competition
   role: Programming Competition Director
@@ -29,15 +31,5 @@
   url: http://oec-2018.herokuapp.com/
   description:
     Organized the first "live" programming competition. Built a simulated stock trading environment where prices
-    are simulated using an algorithm based on brownian motion. During the 8-hour competition teams had to work fast to build
+    are simulated using an algorithm based on Brownian motion. During the 8-hour competition teams had to work fast to build
     and deploy a realtime trading algorithm.
-
-- project: Dataland
-  role: Hacker
-  url: https://github.com/NikhilPeri/data-land
-  duration: May 2018 &mdash; Present
-  description:
-    Personal project to run data services for personal experimentation at hacker scale. Serves as an environment
-    to run scheduled data mining tasks, as well as pipelines for data modeling and transformations.  Complete with data backups
-    log notifications. Currently hosts the <a href="https://github.com/NikhilPeri/proline">Proline Sports Betting</a> project among other
-    smaller data projects.
